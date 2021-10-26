@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,6 +13,9 @@ public class Main {
         proj.name = "Projector in room whitbey";
 
         System.out.println(proj1.name);
+
+        int[] nums1 = {1,2,3,4,5,6,7};
+        System.out.println(nums1.length);
 
     }
 }
