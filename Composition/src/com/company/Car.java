@@ -35,7 +35,7 @@ public abstract class Car {
     public void setName(String name) { this.name = name; }
 
     public Car(String modelName, boolean isAutomatic, int numSeats, boolean hasLeather){
-        this.name = name;
+        //this.name = name;
         this.modelName = modelName;
         wheels = new Wheels(17);
         gearBox = new GearBox(isAutomatic);

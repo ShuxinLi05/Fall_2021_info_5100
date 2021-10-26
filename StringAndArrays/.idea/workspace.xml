@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15d550bc-c328-46cd-9dcc-6d46061b1542" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Dalmation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Husky.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Rat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/iFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AbstractClassExample/src/com/company/iSwim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassesExample/src/com/company/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassesExample/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassesExample/src/com/company/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/MultitonExample/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/MultitonExample/src/com/company/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/PubSubExample/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/PubSubExample/src/com/company/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/PubSubExample/src/com/company/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/SingletonExample/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/SingletonExample/src/com/company/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/ThreadExample/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/ThreadExample/src/com/company/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/Twitter/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/Twitter/src/com/company/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElectronicDevice/src/com/company/DeskPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElectronicDevice/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElectronicDevice/src/com/company/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElectronicDevice/src/com/company/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElectronicDevice/src/com/company/Tablet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElectronicDevice/src/com/company/iBluetooth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ElectronicDevice/src/com/company/iTouch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExample/src/com/company/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExample/src/com/company/LinkListChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExample/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExample/src/com/company/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExample/src/com/company/NodeChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExampleAdvanced/src/com/company/LinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExampleAdvanced/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinkListExampleAdvanced/src/com/company/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/ClassExample928.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/src/com/company/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClassExample928/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/out/production/Composition/com/company/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/out/production/Composition/com/company/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/out/production/Composition/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/out/production/Composition/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/out/production/Composition/com/company/Tesla.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/out/production/Composition/com/company/Tesla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Composition/src/com/company/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Composition/src/com/company/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Rhino.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceExample/src/com/company/Rhino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/OperatorAndControlFlow.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/out/production/OperatorAndControlFlow/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OperatorAndControlFlow/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringAndArrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="201E3Mn6fOfywBNmnQZ4Ve68nEX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="untitled104" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15d550bc-c328-46cd-9dcc-6d46061b1542" name="Changes" comment="" />
+      <created>1635203493871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635203493871</updated>
+    </task>
+    <servers />
+  </component>
+</project>

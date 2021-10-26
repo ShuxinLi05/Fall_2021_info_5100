@@ -4,7 +4,7 @@ public class Rhino extends Animal{
 
     public Rhino(String name, int age, double weight, boolean isMammal, boolean isVegetarian) {
         super(name, age, weight, isMammal, isVegetarian);
-        type = animalType.mammal;
+        type = AnimalType.mammal;
     }
 
     public void eat(){
