@@ -14,8 +14,8 @@ public class Main {
 
         System.out.println(proj1.name);
 
-        int[] nums1 = {1,2,3,4,5,6,7};
-        System.out.println(nums1.length);
+        //int[] nums1 = {1,2,3,4,5,6,7};
+        //System.out.println(nums1.length);
 
     }
 }
