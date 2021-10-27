@@ -10,10 +10,12 @@ public class Main {
 
     }
 
-    public static int nonRepeatingChar(String s) {
-        if( s==null || s.length() ==0) return 0;
+    public static String[] nonRepeatingChar(String s) {
+        if( s==null || s.length() ==0) return null;
 
-        int result = 0;
+        //int result = 0;
+        //StringBuilder newStr = new StringBuilder();
+        String[] newStr = new String[10];
         int[] str = new int[200];
         int p1 = 0;
         int p2 = 0;
@@ -27,9 +29,10 @@ public class Main {
                 str[l]--;
                 p1++;
             }
-            result = Math.max(result, p2 - p1 + 1);
+
+            //result = Math.max(result, p2 - p1 + 1);
             p2++;
         }
-        return result;
+        return newStr;
     }
 }
