@@ -71,7 +71,35 @@ public class Main {
         String text4 = "def";
         System.out.println(longestCommonSubsequence(text3,text4)); //0
 
+        int[] temperatures = {73,74,75,71,69,72,76,73};
+        printArray(dailyTemperatures(temperatures));
 
+        int[][] matrix = {  {0,1,2,0},
+                {3,4,5,2},
+                {1,3,1,5}};
+
+        setZeroes(matrix);
+        printMatrix(matrix);
+
+
+    }
+
+    private static void printArray(int[] arr){
+        for (int i : arr) {
+            System.out.print(i +  ", ");
+        }
+        System.out.println();
+    }
+
+    private static void printMatrix(int[][] matrix){
+        int rows = matrix.length;
+        int col = matrix[0].length;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < col; j++) {
+                System.out.print(matrix[i][j] + " , ");
+            }
+            System.out.println();
+        }
     }
 
     // Minimum remove to make valid parentheses
@@ -335,19 +363,27 @@ public class Main {
         */
     public static int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
+        // left to right
         res[0] = 1;
-
-        int cur = nums[0];
+        for(int i = 1; i< nums.length;i++){
+            res[i] = res[i-1]*nums[i-1];
+        }
+        //right to left
+        int right =1;
+        for(int i= nums.length;i>=0;i--){
+            res[i] = res[i]*right;
+            right = right*nums[i];
+        } //runtime error
+        /*int cur = nums[0];
         for (int i = 1; i < nums.length; i++) {
             res[i] = cur;
             cur *= nums[i];
         }
-
         cur = nums[nums.length - 1];
         for (int i = nums.length - 2; i >= 0; i--) {
             res[i] *= cur;
             cur *= nums[i];
-        }
+        }*/
         return res;
     }
 
@@ -383,30 +419,28 @@ public class Main {
     Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4.
      */
     public static int longestConsecutive(int[] nums) {
-        int res = 0;
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-        for (int n : nums) {
-            if (!map.containsKey(n)) {
-                int left = (map.containsKey(n - 1)) ? map.get(n - 1) : 0;
-                int right = (map.containsKey(n + 1)) ? map.get(n + 1) : 0;
-                // sum: length of the sequence n is in
-                int sum = left + right + 1;
-                map.put(n, sum);
+        HashSet<Integer> num_set = new HashSet<Integer>();
 
-                // keep track of the max length
-                res = Math.max(res, sum);
+        for(int num:nums){
+            num_set.add(num);
+        }
 
-                // extend the length to the boundary(s)
-                // of the sequence
-                // will do nothing if n has no neighbors
-                map.put(n - left, sum);
-                map.put(n + right, sum);
-            } else {
-                // duplicates
-                continue;
+        int max_sequence_length = 0;
+
+        for(int i=0; i<nums.length;i++){
+            int current_num = nums[i];
+            int current_sequence_length = 1;
+
+            if(!num_set.contains(current_num-1)){
+                while(num_set.contains(current_num+1)){
+                    current_num +=1;
+                    current_sequence_length +=1;
+
+                }
+                max_sequence_length = Math.max(max_sequence_length, current_sequence_length);
             }
         }
-        return res;
+        return max_sequence_length;
     }
     /* 739. Daily Temperatures
     Given an array of integers temperatures represents the daily temperatures,
@@ -463,21 +497,27 @@ public class Main {
     Output: [[7,4,1],[8,5,2],[9,6,3]]
      */
      public static void rotate(int[][] matrix) {
-         int n = matrix.length;
-         for (int i = 0; i < n; i++) {
-             for (int j = i; j < matrix[0].length; j++) {
-                 int temp = 0;
-                 temp = matrix[i][j];
+         int m = matrix.length;
+         int n = matrix[0].length;
+         int transpose = 0;
+
+         // transpose matrix first
+         for(int i = 0; i < m; i++){
+             for(int j = i; j < n; j++){
+
+                 transpose = matrix[i][j];
                  matrix[i][j] = matrix[j][i];
-                 matrix[j][i] = temp;
+                 matrix[j][i] = transpose;
              }
          }
-         for (int i = 0; i < n; i++) {
-             for (int j = 0; j < n / 2; j++) {
-                 int temp = 0;
-                 temp = matrix[i][j];
-                 matrix[i][j] = matrix[i][n - 1 - j];
-                 matrix[i][n - 1 - j] = temp;
+
+         // flip the matrix
+         for(int i = 0; i < m; i++){
+             for(int j = 0; j < m/2; j++){
+
+                 transpose = matrix[i][j];
+                 matrix[i][j] = matrix[i][m-1-j];
+                 matrix[i][m-1-j] = transpose;
              }
          }
      }
@@ -601,7 +641,7 @@ public class Main {
     Output: [0,2,3]
     Explanation: Building 1 (0-indexed) does not have an ocean view because building 2 is taller.
      */
-      public int[] findBuildings(int[] heights) {
+      public static int[] findBuildings(int[] heights) {
           List<Integer> temp = new ArrayList<>();
           int nextBiggest = 0;
           int j = heights.length - 1;
