@@ -34,7 +34,6 @@ public class Roomba implements iRobot{
             if(j-1>room[0].length||room[i][j-1] == -1) return false;
         }
         return true;
-
     }
 
     @Override
